@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "present-simple-everyday-activities",
+    "eyebrow": "A1–A2 · 25 MIN",
+    "title": "Everyday Activities",
+    "focus": "Present Simple · Pattern Practice",
+    "character": "Tim Cook",
+    "sourceNote": "A simplified learning routine based on public interviews.",
+    "xp": 120
+  },
+  "hero": {
+    "kicker": "One day. One powerful pattern.",
+    "title": "Meet Tim Cook.",
+    "intro": "Follow an early riser through a focused day.",
+    "image": "/assets/tim-cook-morning.png",
+    "imageAlt": "Editorial illustration of Tim Cook reading email before sunrise"
+  },
+  "timeline": [
+    { "label": "Morning", "time": "3:45", "icon": "sunrise" },
+    { "label": "Afternoon", "time": "12:30", "icon": "work" },
+    { "label": "Evening", "time": "19:00", "icon": "book" },
+    { "label": "Night", "time": "21:30", "icon": "moon" }
+  ],
+  "warmup": {
+    "question": "What do you think Tim does every morning?",
+    "options": [
+      { "id": "emails", "label": "Reads emails", "correct": true, "icon": "mail" },
+      { "id": "gym", "label": "Goes to the gym", "correct": true, "icon": "gym" },
+      { "id": "late", "label": "Gets up late", "correct": false, "icon": "bed" },
+      { "id": "coffee", "label": "Drinks coffee", "correct": true, "icon": "coffee" }
+    ]
+  },
+  "vocabulary": [
+    { "id": "get-up", "group": "Morning", "word": "get up", "phonetic": "/ɡet ʌp/", "icon": "sunrise", "example": "He gets up before sunrise.", "collocations": ["get up early", "get up at 6"] },
+    { "id": "coffee", "group": "Morning", "word": "drink coffee", "phonetic": "/drɪŋk ˈkɒfi/", "icon": "coffee", "example": "He drinks coffee at home.", "collocations": ["hot coffee", "morning coffee"] },
+    { "id": "emails", "group": "Work", "word": "read emails", "phonetic": "/riːd ˈiːmeɪlz/", "icon": "mail", "example": "He reads customer emails.", "collocations": ["read emails", "answer emails"] },
+    { "id": "gym", "group": "Morning", "word": "go to the gym", "phonetic": "/ɡəʊ tə ðə dʒɪm/", "icon": "gym", "example": "He goes to the gym early.", "collocations": ["morning gym", "gym workout"] },
+    { "id": "meetings", "group": "Work", "word": "have meetings", "phonetic": "/hæv ˈmiːtɪŋz/", "icon": "meeting", "example": "He has meetings at work.", "collocations": ["team meeting", "have a meeting"] },
+    { "id": "read", "group": "Evening", "word": "read", "phonetic": "/riːd/", "icon": "book", "example": "He reads in the evening.", "collocations": ["read a book", "read at night"] },
+    { "id": "bed", "group": "Evening", "word": "go to bed", "phonetic": "/ɡəʊ tə bed/", "icon": "moon", "example": "He goes to bed early.", "collocations": ["go to bed", "bedtime routine"] }
+  ],
+  "story": [
+    { "id": "wake", "time": "3:45", "period": "Morning", "sentence": "He gets up very early.", "base": "get", "ending": "s", "tail": " up very early.", "icon": "sunrise", "caption": "The city is still quiet." },
+    { "id": "coffee", "time": "4:00", "period": "Morning", "sentence": "He drinks coffee and eats cereal.", "base": "drink", "ending": "s", "tail": " coffee and eats cereal.", "icon": "coffee", "caption": "A simple start." },
+    { "id": "emails", "time": "4:15", "period": "Morning", "sentence": "He reads customer emails.", "base": "read", "ending": "s", "tail": " customer emails.", "icon": "mail", "caption": "He listens to customers." },
+    { "id": "gym", "time": "5:00", "period": "Morning", "sentence": "He goes to the gym.", "base": "go", "ending": "es", "tail": " to the gym.", "icon": "gym", "caption": "Movement before meetings." },
+    { "id": "work", "time": "7:00", "period": "Work", "sentence": "He works at Apple.", "base": "work", "ending": "s", "tail": " at Apple.", "icon": "work", "caption": "His workday begins." },
+    { "id": "meeting", "time": "10:00", "period": "Work", "sentence": "He has team meetings.", "base": "ha", "ending": "s", "tail": " team meetings.", "icon": "meeting", "caption": "Teams share ideas." },
+    { "id": "answer", "time": "14:00", "period": "Work", "sentence": "He answers more emails.", "base": "answer", "ending": "s", "tail": " more emails.", "icon": "mail", "caption": "Back to his inbox." },
+    { "id": "read", "time": "19:30", "period": "Evening", "sentence": "He reads in the evening.", "base": "read", "ending": "s", "tail": " in the evening.", "icon": "book", "caption": "A quiet moment." },
+    { "id": "sleep", "time": "21:30", "period": "Night", "sentence": "He goes to bed early.", "base": "go", "ending": "es", "tail": " to bed early.", "icon": "moon", "caption": "Ready for tomorrow." }
+  ],
+  "transformations": [
+    { "subject": "He", "base": "work", "ending": "s", "tail": "at Apple" },
+    { "subject": "He", "base": "read", "ending": "s", "tail": "emails" },
+    { "subject": "He", "base": "go", "ending": "es", "tail": "to the gym" },
+    { "subject": "She", "base": "drink", "ending": "s", "tail": "coffee" }
+  ],
+  "frequency": {
+    "adverbs": ["always", "usually", "often", "sometimes", "never"],
+    "examples": [
+      { "sentence": "He usually reads emails before the gym.", "highlight": "usually", "verb": "reads", "type": "main" },
+      { "sentence": "He is always focused in meetings.", "highlight": "always", "verb": "is", "type": "be" }
+    ],
+    "discoveries": [
+      { "id": "main", "prompt": "Where does usually go with a main verb?", "sentence": "He usually reads emails.", "options": ["Before the main verb", "After the main verb", "At the end"], "answer": "Before the main verb" },
+      { "id": "be", "prompt": "Where does always go with be?", "sentence": "He is always focused.", "options": ["Before be", "After be", "At the start"], "answer": "After be" }
+    ],
+    "practice": [
+      { "prompt": "Build the sentence", "words": ["He", "usually", "reads", "emails", "."], "answer": "He usually reads emails ." },
+      { "prompt": "Use often with a negative", "words": ["He", "doesn't", "often", "drink", "coffee", "late", "."], "answer": "He doesn't often drink coffee late ." },
+      { "prompt": "Build a sentence with be", "words": ["His", "meetings", "are", "usually", "short", "."], "answer": "His meetings are usually short ." },
+      { "prompt": "Build the question", "words": ["Does", "he", "always", "get", "up", "early", "?"], "answer": "Does he always get up early ?" }
+    ]
+  },
+  "builders": [
+    { "prompt": "Positive", "words": ["He", "usually", "answers", "emails", "early", "."], "answer": "He usually answers emails early ." },
+    { "prompt": "Negative", "words": ["He", "doesn't", "often", "answer", "emails", "late", "."], "answer": "He doesn't often answer emails late ." },
+    { "prompt": "Question", "words": ["Does", "he", "always", "answer", "emails", "?"], "answer": "Does he always answer emails ?" },
+    { "prompt": "Be sentence", "words": ["He", "is", "usually", "focused", "at", "work", "."], "answer": "He is usually focused at work ." }
+  ],
+  "mistakes": [
+    { "bad": "He don't usually work late.", "good": "He doesn't usually work late." },
+    { "bad": "She often drink coffee early.", "good": "She often drinks coffee early." },
+    { "bad": "Does he always reads emails?", "good": "Does he always read emails?" },
+    { "bad": "He is focused always in meetings.", "good": "He is always focused in meetings." },
+    { "bad": "He goes never to the gym late.", "good": "He never goes to the gym late." },
+    { "bad": "He usually reads customer emails.", "good": "He usually reads customer emails." }
+  ],
+  "quiz": [
+    { "type": "choice", "prompt": "Tim ___ customer emails.", "options": ["read", "reads", "does read"], "answer": "reads" },
+    { "type": "choice", "prompt": "___ he go to the gym?", "options": ["Do", "Does", "Is"], "answer": "Does" },
+    { "type": "choice", "prompt": "He ___ get up late.", "options": ["don't", "doesn't", "isn't"], "answer": "doesn't" },
+    { "type": "listening", "prompt": "Listen. Which sentence do you hear?", "audio": "He drinks coffee every morning.", "options": ["He drinks coffee.", "He drink coffee.", "Does he drink coffee?"], "answer": "He drinks coffee." }
+  ],
+  "interview": [
+    { "question": "Does he get up early?", "answer": "Yes, he does.", "truth": true, "reply": "Very early — before sunrise." },
+    { "question": "Does he drink coffee?", "answer": "Yes, he does.", "truth": true, "reply": "Yes. Coffee starts his morning." },
+    { "question": "Does he work at Apple?", "answer": "Yes, he does.", "truth": true, "reply": "Yes. His workday is full." },
+    { "question": "Does he get up late?", "answer": "No, he doesn't.", "truth": false, "reply": "No. Early mornings work for him." }
+  ],
+  "personalActivities": [
+    { "id": "coffee", "label": "drink coffee", "third": "drinks coffee", "icon": "coffee" },
+    { "id": "email", "label": "read emails", "third": "reads emails", "icon": "mail" },
+    { "id": "gym", "label": "go to the gym", "third": "goes to the gym", "icon": "gym" },
+    { "id": "meet", "label": "have meetings", "third": "has meetings", "icon": "meeting" },
+    { "id": "book", "label": "read at night", "third": "reads at night", "icon": "book" },
+    { "id": "bed", "label": "go to bed early", "third": "goes to bed early", "icon": "moon" }
+  ],
+  "challenge": [
+    { "type": "choice", "prompt": "Choose the sentence you see in Tim's morning.", "options": ["He reads emails.", "He read emails.", "Does he reads emails?"], "answer": "He reads emails." },
+    { "type": "choice", "prompt": "Move the ending: He works → negative", "options": ["He doesn't work.", "He don't works.", "He doesn't works."], "answer": "He doesn't work." },
+    { "type": "choice", "prompt": "Complete the interview question.", "options": ["Does he drink coffee?", "Do he drinks coffee?", "He does drink coffee?"], "answer": "Does he drink coffee?" },
+    { "type": "speak", "prompt": "Say one true sentence about your morning.", "model": "I usually drink coffee in the morning.", "answer": "spoken" }
+  ],
+  "homework": {
+    "title": "The 60-minute routine lab",
+    "description": "Work in short rounds. Your complete answer review appears at the end.",
+    "blocks": [
+      { "label": "Round 1 · Pattern recall", "minutes": 15 },
+      { "label": "Round 2 · Frequency", "minutes": 15 },
+      { "label": "Round 3 · Transform", "minutes": 20 },
+      { "label": "Round 4 · Personal output", "minutes": 10 }
+    ],
+    "tasks": [
+      { "block": 0, "type": "choice", "prompt": "Tim ___ emails before the gym.", "options": ["read", "reads", "does reads"], "answer": "reads" },
+      { "block": 0, "type": "choice", "prompt": "He ___ get up late.", "options": ["doesn't", "don't", "isn't"], "answer": "doesn't" },
+      { "block": 0, "type": "choice", "prompt": "___ he drink coffee?", "options": ["Does", "Do", "Is"], "answer": "Does" },
+      { "block": 0, "type": "input", "prompt": "Correct: She work every morning.", "answer": "She works every morning." },
+      { "block": 1, "type": "choice", "prompt": "Choose the natural sentence.", "options": ["He usually reads emails.", "He reads usually emails.", "Usually he reads emails always."], "answer": "He usually reads emails." },
+      { "block": 1, "type": "choice", "prompt": "Choose the sentence with be.", "options": ["He is always focused.", "He always is focused.", "He is focused always."], "answer": "He is always focused." },
+      { "block": 1, "type": "input", "prompt": "Put often in the best place: He answers emails.", "answer": "He often answers emails." },
+      { "block": 1, "type": "input", "prompt": "Put never in the best place: He is late.", "answer": "He is never late." },
+      { "block": 2, "type": "input", "prompt": "Make negative: He works late.", "answer": "He doesn't work late." },
+      { "block": 2, "type": "input", "prompt": "Make a question: He goes to the gym.", "answer": "Does he go to the gym?" },
+      { "block": 2, "type": "input", "prompt": "Make negative: She drinks coffee.", "answer": "She doesn't drink coffee." },
+      { "block": 2, "type": "input", "prompt": "Make a question: Tim reads emails.", "answer": "Does Tim read emails?" },
+      { "block": 2, "type": "choice", "prompt": "Choose the correct short answer: Does he work early?", "options": ["Yes, he does.", "Yes, he do.", "Yes, he works."], "answer": "Yes, he does." },
+      { "block": 3, "type": "input", "prompt": "Write a true sentence beginning: I usually…", "answer": "open", "sample": "I usually drink coffee in the morning." },
+      { "block": 3, "type": "input", "prompt": "Write a true question beginning: Do you often…?", "answer": "open", "sample": "Do you often read in the evening?" }
+    ]
+  }
+}
