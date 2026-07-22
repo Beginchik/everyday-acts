@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "id": "dream-interview",
+    "title": "The Dream Interview",
+    "eyebrow": "ELEMENTARY · LESSON 02 · 60–75 MIN",
+    "subtitle": "Ask better questions. Discover bigger dreams.",
+    "xp": 160
+  },
+  "revision": [
+    { "prompt": "Maya plans ___ abroad.", "options": ["to travel", "travel", "travelling"], "answer": "to travel" },
+    { "prompt": "She hopes ___ in a balloon.", "options": ["to fly", "fly", "flying"], "answer": "to fly" },
+    { "prompt": "She would like ___ windsurf.", "options": ["to learn to", "learn", "learning to"], "answer": "to learn to" },
+    { "prompt": "She promises ___ a new recipe.", "options": ["to try", "try", "trying"], "answer": "to try" }
+  ],
+  "vocabulary": [
+    { "word": "adventurous", "icon": "⛰", "meaning": "ready to try exciting things", "example": "Maya is adventurous.", "group": "Personality" },
+    { "word": "curious", "icon": "?", "meaning": "wanting to know more", "example": "Alex is curious about Maya.", "group": "Personality" },
+    { "word": "confident", "icon": "↑", "meaning": "sure you can do something", "example": "She feels confident today.", "group": "Personality" },
+    { "word": "nervous", "icon": "≈", "meaning": "worried or a little afraid", "example": "Is Maya nervous?", "group": "Feelings" },
+    { "word": "afraid", "icon": "!", "meaning": "feeling fear", "example": "She is afraid of heights.", "group": "Feelings" },
+    { "word": "excited", "icon": "✦", "meaning": "very happy about something", "example": "They are excited about the trip.", "group": "Feelings" },
+    { "word": "ready", "icon": "✓", "meaning": "prepared to begin", "example": "Are you ready for an adventure?", "group": "Feelings" },
+    { "word": "interested in", "icon": "◎", "meaning": "wanting to learn about something", "example": "She is interested in windsurfing.", "group": "Feelings" },
+    { "word": "travel club", "icon": "◉", "meaning": "a group for people who enjoy travel", "example": "Maya joins a travel club.", "group": "Travel" },
+    { "word": "member", "icon": "♙", "meaning": "a person in a group", "example": "Alex is a new member.", "group": "Travel" },
+    { "word": "hometown", "icon": "⌂", "meaning": "the town where you grew up", "example": "What is your hometown?", "group": "Travel" },
+    { "word": "destination", "icon": "⌖", "meaning": "the place you are going to", "example": "Japan is her dream destination.", "group": "Travel" },
+    { "word": "adventure", "icon": "↗", "meaning": "an exciting experience", "example": "Does she want an adventure?", "group": "Travel" },
+    { "word": "challenge", "icon": "◆", "meaning": "something difficult but interesting", "example": "Flying alone is a challenge.", "group": "Travel" },
+    { "word": "experience", "icon": "◇", "meaning": "something that happens to you", "example": "Travel is a valuable experience.", "group": "Travel" },
+    { "word": "opportunity", "icon": "+", "meaning": "a good chance to do something", "example": "This is a great opportunity.", "group": "Travel" },
+    { "word": "travel companion", "icon": "♙♙", "meaning": "someone who travels with you", "example": "Who is her travel companion?", "group": "Travel" },
+    { "word": "local food", "icon": "◌", "meaning": "food from a particular place", "example": "Do you try local food?", "group": "Travel" }
+  ],
+  "dialogue": [
+    { "speaker": "Alex", "line": "Are you new here?", "reply": "Yes, I am.", "type": "be" },
+    { "speaker": "Alex", "line": "Where are you from?", "reply": "I'm from London.", "type": "be" },
+    { "speaker": "Alex", "line": "Do you travel often?", "reply": "Not often, but I want to.", "type": "do" },
+    { "speaker": "Maya", "line": "Are you an adventurous person?", "reply": "Yes, I am. I love a challenge.", "type": "be" },
+    { "speaker": "Maya", "line": "Where do you work?", "reply": "I work for a travel magazine.", "type": "do" },
+    { "speaker": "Alex", "line": "What do you want to try?", "reply": "I want to learn to windsurf.", "type": "do" },
+    { "speaker": "Maya", "line": "Is your next destination Japan?", "reply": "Yes, it is.", "type": "be" },
+    { "speaker": "Alex", "line": "Why are you nervous?", "reply": "Because I'm afraid of heights.", "type": "be" }
+  ],
+  "sortQuestions": [
+    { "text": "Are you ready?", "type": "be" },
+    { "text": "Where is Alex from?", "type": "be" },
+    { "text": "Do you like travelling?", "type": "do" },
+    { "text": "Does Maya work every day?", "type": "do" },
+    { "text": "Why are they excited?", "type": "be" },
+    { "text": "What does she want to learn?", "type": "do" }
+  ],
+  "starters": [
+    { "prompt": "___ you nervous?", "options": ["Are", "Do"], "answer": "Are" },
+    { "prompt": "___ you travel often?", "options": ["Are", "Do"], "answer": "Do" },
+    { "prompt": "___ Maya want to work abroad?", "options": ["Is", "Does"], "answer": "Does" },
+    { "prompt": "Where ___ Alex from?", "options": ["is", "does"], "answer": "is" },
+    { "prompt": "Why ___ they excited?", "options": ["are", "do"], "answer": "are" },
+    { "prompt": "What ___ Maya hope to try?", "options": ["is", "does"], "answer": "does" }
+  ],
+  "builders": [
+    { "words": ["Are", "you", "ready", "?"], "answer": "Are you ready?" },
+    { "words": ["Do", "you", "travel", "often", "?"], "answer": "Do you travel often?" },
+    { "words": ["Where", "does", "Maya", "work", "?"], "answer": "Where does Maya work?" },
+    { "words": ["What", "does", "she", "want", "to", "try", "?"], "answer": "What does she want to try?" },
+    { "words": ["Why", "is", "Alex", "excited", "?"], "answer": "Why is Alex excited?" }
+  ],
+  "answerToQuestion": [
+    { "answerLine": "I'm from London.", "cue": "Where…?", "answer": "Where are you from?" },
+    { "answerLine": "She works at a college.", "cue": "Where…?", "answer": "Where does she work?" },
+    { "answerLine": "Because she loves new experiences.", "cue": "Why…?", "answer": "Why does she travel?" },
+    { "answerLine": "Yes, Alex is adventurous.", "cue": "Is…?", "answer": "Is Alex adventurous?" }
+  ],
+  "shortAnswers": [
+    { "question": "Is Maya adventurous?", "options": ["Yes, she is.", "Yes, she does."], "answer": "Yes, she is." },
+    { "question": "Does she travel every month?", "options": ["No, she isn't.", "No, she doesn't."], "answer": "No, she doesn't." },
+    { "question": "Are Maya and Alex ready?", "options": ["Yes, they are.", "Yes, they do."], "answer": "Yes, they are." },
+    { "question": "Do they like local food?", "options": ["Yes, they do.", "Yes, they are."], "answer": "Yes, they do." }
+  ],
+  "mistakes": [
+    { "bad": "Do Maya want to travel?", "good": "Does Maya want to travel?" },
+    { "bad": "Where does she works?", "good": "Where does she work?" },
+    { "bad": "Is you ready?", "good": "Are you ready?" },
+    { "bad": "Why she is nervous?", "good": "Why is she nervous?" },
+    { "bad": "Does Alex is adventurous?", "good": "Is Alex adventurous?" },
+    { "bad": "Where do you work?", "good": "Where do you work?" }
+  ],
+  "listening": [
+    { "audio": "Where are you from?", "prompt": "Which question did you hear?", "options": ["Where are you from?", "Where do you work?"], "answer": "Where are you from?" },
+    { "audio": "Does Maya want to travel abroad?", "prompt": "Which question did you hear?", "options": ["Is Maya abroad?", "Does Maya want to travel abroad?"], "answer": "Does Maya want to travel abroad?" },
+    { "audio": "Why is Alex excited?", "prompt": "Which question did you hear?", "options": ["Why is Alex excited?", "Why does Alex travel?"], "answer": "Why is Alex excited?" }
+  ],
+  "interview": [
+    { "cue": "hometown", "question": "Where are you from?", "reply": "I'm from Bristol." },
+    { "cue": "job", "question": "What do you do?", "reply": "I write for a travel magazine." },
+    { "cue": "personality", "question": "Are you adventurous?", "reply": "Yes, I am. I enjoy a challenge." },
+    { "cue": "next destination", "question": "Where do you want to go next?", "reply": "I want to go to Japan." },
+    { "cue": "fear", "question": "Are you afraid of flying?", "reply": "No, I'm not. I love flying." }
+  ],
+  "mission": [
+    { "type": "choice", "prompt": "Choose the correct question.", "options": ["Where is Maya from?", "Where does Maya from?"], "answer": "Where is Maya from?" },
+    { "type": "choice", "prompt": "Ask about Alex's work.", "options": ["Where does Alex work?", "Where is Alex work?"], "answer": "Where does Alex work?" },
+    { "type": "choice", "prompt": "Choose the correct short answer: Is she ready?", "options": ["Yes, she is.", "Yes, she does."], "answer": "Yes, she is." },
+    { "type": "choice", "prompt": "Repair the question.", "options": ["What does she want to try?", "What does she wants to try?"], "answer": "What does she want to try?" },
+    { "type": "speaking", "prompt": "Ask two questions about a dream trip.", "answer": "open" }
+  ]
+}

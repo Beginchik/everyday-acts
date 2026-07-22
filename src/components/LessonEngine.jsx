@@ -407,7 +407,7 @@ function Homework({ data, onComplete }) {
 }
 
 function Footer() {
-  return <footer><a className="brand" href="#welcome"><span className="brand-mark"><span /></span><span>dayloop</span></a><p>Practice until the pattern feels automatic.</p><a href="#welcome">Back to top ↑</a></footer>;
+  return <footer><a className="brand" href="#welcome"><span className="brand-mark"><span /></span><span>dayloop</span></a><p>Practice until the pattern feels automatic.</p><a className="next-lesson-link" href={withBase('/dream-interview.html')}>Next lesson: The Dream Interview →</a><a href="#welcome">Back to top ↑</a></footer>;
 }
 
 export function LessonEngine({ lesson }) {

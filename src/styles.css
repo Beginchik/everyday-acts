@@ -416,7 +416,8 @@ button.incorrect { border-color: var(--red)!important; background: var(--red-sof
 .answer-review strong { color: var(--green); font-size: 13px; }.answer-review em { color: var(--blue); font-size: 11px; font-style: normal; }
 footer { max-width: 1160px; margin: auto; min-height: 130px; display: flex; align-items: center; gap: 35px; padding: 30px 28px; }
 footer p { color: var(--muted); font-size: 12px; margin: 0; }
-footer > a:last-child { margin-left: auto; color: var(--blue); text-decoration: none; font-size: 12px; font-weight: 700; }
+footer > a:last-child { color: var(--blue); text-decoration: none; font-size: 12px; font-weight: 700; }
+.next-lesson-link { margin-left: auto; min-height: 42px; padding: 0 16px; border-radius: 12px; background: var(--navy); color: white!important; display: inline-flex; align-items: center; text-decoration: none; font-size: 12px; font-weight: 800; }
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .65s ease, transform .65s ease; }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 @keyframes float { 50% { transform: translateY(-9px); } }

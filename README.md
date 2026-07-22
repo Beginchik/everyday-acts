@@ -1,6 +1,6 @@
 # Dayloop lesson engine
 
-A responsive, data-driven React lesson for automating Present Simple patterns and adverb placement through one continuous story.
+A responsive, data-driven React lesson platform with two connected adult Elementary lessons.
 
 ## Run locally
 
@@ -11,10 +11,17 @@ npm run dev
 
 Create a production build with `npm run build`.
 
+Local lesson URLs:
+
+- `/index.html` — Everyday Activities
+- `/dream-interview.html` — The Dream Interview
+
 ## Architecture
 
-- `src/data/lessons/everydayActivities.json` contains all lesson content.
+- `src/data/lessons/everydayActivities.json` contains the first lesson content.
+- `src/data/lessons/dreamInterview.json` contains the second lesson on questions with `be` and other verbs.
 - `src/components/LessonEngine.jsx` contains 16 reusable section-level modules, including frequency discovery, spaced retry, and a homework review engine.
+- `src/components/DreamInterviewLesson.jsx` provides the interview-driven interaction sequence for Lesson 02.
 - `src/components/UI.jsx` contains reusable controls, grammar tokens, icons, audio, and feedback.
 - `src/styles.css` contains the responsive visual system and animation layer.
 
